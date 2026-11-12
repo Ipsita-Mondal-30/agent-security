@@ -9,12 +9,9 @@ build/
 *.tsbuildinfo
 
 # Environment
-.env
-.env.*
 !.env.example
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -123,7 +120,6 @@ apps/api/data/*.db-shm
 apps/api/data/*.db-wal
 
 # SolonGate
-.env.local
 .solongate/**
 .claude/**
 .gemini/**
@@ -155,3 +151,4 @@ apps/*/.dev-server.exe
 # Stray screenshots
 image.png
 **/image.png
+config.bat
